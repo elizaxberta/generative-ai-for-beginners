@@ -52,6 +52,8 @@ This course has 21 lessons. Each lesson covers its own topic so start wherever y
 
 Lessons are labeled either "Learn" lessons explaining a Generative AI concept or "Build" lessons that explain a concept and code examples in both **Python** and **TypeScript** when possible.
 
+> Current state: the course examples target the Azure OpenAI Responses API (`<endpoint>/openai/v1/`), the current Microsoft Foundry Models endpoint, and the latest model guidance in the repository. GitHub Models references are kept only as compatibility notes while the platform transitions to Microsoft Foundry.
+
 For .NET Developers checkout [Generative AI for Beginners (.NET Edition)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)!
 
 Each lesson also includes a "Keep Learning" section with additional learning tools.

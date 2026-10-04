@@ -25,6 +25,12 @@ if (!endpoint) {
    Microsoft: Phi-4, Phi-4-mini-instruct, Phi-4-multimodal-instruct, Phi-4-reasoning */
 const modelName = "gpt-5-mini";
 
+/**
+ * Run the chat-completions sample for a single assistant reply.
+ *
+ * This example demonstrates a minimal request to a Foundry model using the
+ * Azure AI Inference chat-completions endpoint.
+ */
 export async function main() {
 
     const client = new ModelClient(endpoint, new AzureKeyCredential(token));

@@ -50,6 +50,13 @@ const namesToFunctions = {
         getHotelInfo(data)
 };
 
+/**
+ * Demonstrate model-driven tool calling with flight and hotel lookup tools.
+ *
+ * The model decides whether to call a tool, the tool arguments are validated,
+ * and the model is then asked to respond with the tool results included in the
+ * conversation history.
+ */
 export async function main() {
 
     const tool = {

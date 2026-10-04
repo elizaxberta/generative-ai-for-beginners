@@ -12,6 +12,12 @@ const apiVersion = "2025-04-01-preview";
 
 const promptImage = "captain with a parrot on his shoulder";
 
+/**
+ * Generate a sample image with the configured Azure OpenAI image model.
+ *
+ * The app sends a prompt to the deployment, saves the returned base64 payload to
+ * a PNG file, and logs the output location.
+ */
 export async function main() {
   try {
     console.log("== Image Generation App ==");

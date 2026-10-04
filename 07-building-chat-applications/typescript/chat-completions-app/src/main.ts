@@ -13,6 +13,12 @@ const client = new OpenAI({
     baseURL: `${endpoint.replace(/\/$/, '')}/openai/v1/`,
 });
 
+/**
+ * Run the chat sample using the Azure OpenAI Responses API.
+ *
+ * The app sends a short conversation to the configured deployment and prints the
+ * model's reply to the console.
+ */
 export async function main() {
     try {
         console.log("== Chat Completions App ==");

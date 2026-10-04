@@ -77,6 +77,13 @@ const getCurrentWeatherTool = {
   },
 };
 
+/**
+ * Run the function-calling sample using the Azure OpenAI Responses API.
+ *
+ * The app prompts the model with a location-based question, invokes the tool
+ * that matches the model's request, and prints the tool output before the model
+ * produces a final answer.
+ */
 async function main() {
   try {
     console.log("== Chat App with Functions (Responses API) ==");

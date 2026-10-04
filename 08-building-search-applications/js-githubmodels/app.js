@@ -42,6 +42,13 @@ function cosineSimilarity(vector1, vector2) {
 
 
 
+/**
+ * Compare the semantic similarity between sample text embeddings.
+ *
+ * The script fetches embeddings for a few example terms and then calculates
+ * cosine similarity to show how closely related the terms are in the embedding
+ * space.
+ */
 export async function main() {
     let carEmbedding, vehicleEmbedding, birdEmbedding
 

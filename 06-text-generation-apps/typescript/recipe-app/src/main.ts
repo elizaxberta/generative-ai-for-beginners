@@ -13,6 +13,13 @@ const client = new OpenAI({
     baseURL: `${endpoint.replace(/\/$/, '')}/openai/v1/`,
 });
 
+/**
+ * Run the recipe recommendation sample for the Azure OpenAI Responses API.
+ *
+ * The program asks the model to suggest recipes from a list of ingredients and
+ * then converts the generated output into a shopping list that excludes items
+ * already in the pantry.
+ */
 export async function main() {
     console.log("== Recipe Recommendation App ==");
 

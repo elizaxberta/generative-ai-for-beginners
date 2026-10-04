@@ -17,6 +17,14 @@ if (!endpoint) {
 // so use a Llama model via the Microsoft Foundry Models endpoint to demonstrate temperature.
 const modelName = process.env["AZURE_INFERENCE_CHAT_MODEL"] || "Llama-3.3-70B-Instruct";
 
+/**
+ * Run the recipe recommendation sample.
+ *
+ * The app generates a recipe list from the supplied ingredients and then
+ * expands that output into a shopping list that filters out items already on
+ * hand. This mirrors the same prompt-to-prompt workflow used in the Python and
+ * TypeScript lessons.
+ */
 export async function main() {
 
     console.log("== Recipe Recommendation App ==");
